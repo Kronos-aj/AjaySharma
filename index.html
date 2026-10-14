@@ -70,7 +70,7 @@
                 <div id="corner-tr" class="corner"></div>
                 <h3>What I Do</h3>
                 <p>
-                  I am a UI/UX designer, Graphic designer and web developer.
+                  I am a Software Engineer specializing in fintech systems, with experience in enterprise application development and transaction processing. 
                 </p>
                 <div id="corner-br" class="corner"></div>
                 <div id="corner-bl" class="corner"></div>
@@ -88,16 +88,13 @@
             <h4>More about me</h4>
 
             <p>
-              I Design new projects just to tickle my brain and love teaching
-              others how they're made.
+              I am focused on building scalable backend applications using Java, Spring Boot, REST APIs, microservices, and SQL, with an emphasis on clean code, performance, and reliability.
             </p>
 
             <p>
-              <strong> UI/UX </strong>- APP and Website User Interface <br />
-              <strong>Graphic design</strong> - Posters, Brochure, Thumbnails,
-              Business cards, Logos etc. <br />
-              <strong>Web development</strong> - Webflow developer and react
-              developer
+              <strong> Backend Development </strong>- Java, Spring Boot, REST APIs, Microservices <br />
+              <strong>Fintech & Mainframe</strong> - VisionPLUS, TRAMS, COBOL, JCL, Transaction Processing <br />
+              <strong>Database & Tools</strong> - SQL, MySQL, Git, GitHub, Maven
             </p>
 
             <hr />
@@ -105,33 +102,35 @@
             <h4>TOP EXPERTISE</h4>
 
             <p>
-              Fullstack developer with Django And MERN:
+              Java Backend Developer | Spring Boot & Microservices:
               <br />
               <a target="_blank" href="resume.pdf">Download Resume</a>
             </p>
 
             <div id="skills">
               <ul>
-                <li>UI/UX</li>
-                <li>Figma</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe XD</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Spring Security</li>
+                <li>Spring Data JPA</li>
+                <li>Hibernate</li>
+                <li>Payment Procesing</li>
               </ul>
 
               <ul>
-                <li>React</li>
-                <li>Webflow</li>
+                <li>Python</li>
+                <li>Apache Kafka</li>
                 <li>Git/GitHub</li>
-                <li>Canva</li>
-                <li>HTML/CSS</li>
+                <li>Docker</li>
+                <li>MySql and PostgreSQL</li>
+                <li>Fintech</li>
               </ul>
             </div>
           </div>
 
           <div class="social-links">
-            <img id="social_img" src="images/linkedIN.png" />
-            <h3>Find me on LinkedIN and Behance</h3>
+            <img id="social_img" src="images/image.png" />
+            <h3>Find me on LinkedIN and GitHub</h3>
 
             <a
               target="_blank"
@@ -139,8 +138,8 @@
               >LinkedIN</a
             >
             <br />
-            <a target="_blank" href="https://www.behance.net/kronos_aj"
-              >Behance</a
+            <a target="_blank" href="https://github.com/Kronos-aj"
+              >GitHub</a
             >
           </div>
         </div>
@@ -154,45 +153,46 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/FoodApp.png" />
+              <img class="thumbnail" src="images/OrderManagementProject.jpeg" />
               <div class="post-preview">
-                <h6 class="post-title">Fast Food Ordering App</h6>
+                <h6 class="post-title">Order Management Microservices</h6>
                 <p class="post-intro">
-                  Designed and Prototyped a Food ordering Mobile App using Figma
-                  and Photoshop
+                  Built with Java, Spring Boot, API Gateway, Eureka, REST APIs and MySQL.
+Demonstrate service discovery, routing requests between services, and order management.
                 </p>
-                <a href="https://www.behance.net/gallery/163545305/Food-app"
+                <!-- <a href="https://www.behance.net/gallery/163545305/Food-app"
                   >View Project</a
-                >
+                > -->
               </div>
             </div>
           </div>
 
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/2.png" />
+              <img class="thumbnail" src="images/digitalWallet.jpeg" />
               <div class="post-preview">
-                <h6 class="post-title">Mustitask Managemant App</h6>
+                <h6 class="post-title">Digital Wallet & Payment System</h6>
                 <p class="post-intro">
-                  Mobile App Designed for Keeping record for Multitasking and
-                  recording
+                  Built with Spring Boot, React and MySQL.
+Showcase wallet balances, transaction history, payment processing, validation and transaction consistency.
                 </p>
-                <a href="https://www.behance.net/gallery/164656741/Multitask"
+                <!-- <a href="https://www.behance.net/gallery/164656741/Multitask"
                   >View Project</a
-                >
+                > -->
               </div>
             </div>
           </div>
 
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/3.png" />
+              <img class="thumbnail" src="images/Transaction Reconciliation System.jpeg" />
               <div class="post-preview">
-                <h6 class="post-title">Huddle Website</h6>
+                <h6 class="post-title">Transaction Processing & Reconciliation System</h6>
                 <p class="post-intro">
-                  Designed and developed in React, fully responisve website
+                  Built with Java, Spring Boot, SQL and scheduled jobs.
+Showcase transaction status tracking, duplicate detection, reconciliation reports and exception handling.
                 </p>
-                <a href="https://kronos-aj.github.io/Huddle/"> Visit Site</a>
+                <!-- <a href="https://kronos-aj.github.io/Huddle/"> View Project</a> -->
               </div>
             </div>
           </div>
@@ -225,8 +225,68 @@
       </div>
     </section>
 
+
+
+
+
     <script type="text/javascript" src="script.js"></script>
+
     <script>
+  const scriptURL =
+    'https://script.google.com/macros/s/AKfycbw__4DZJ2MkPYwRGUpW0Zh09s1IL8vBCMiBnoZnS2WKC07YHRd5YmvR4XYMNZr5CXXCog/exec';
+
+  const form = document.forms['submit-to-google-sheet'];
+
+  if (form) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const submitButton = form.querySelector('[type="submit"]');
+      const originalText = submitButton?.textContent;
+
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Submitting...';
+      }
+
+      try {
+        const response = await fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        });
+
+        console.log('Google Apps Script response:', response);
+
+        if (!response.ok) {
+          throw new Error(`Request failed: ${response.status}`);
+        }
+
+        alert(
+          'Thank you for contacting me! I will get back to you soon.'
+        );
+
+        form.reset();
+
+      } catch (error) {
+        console.error('Form submission error:', error);
+
+        alert(
+          'We could not confirm your submission. Please check the connection or try again.'
+        );
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = originalText || 'Submit';
+        }
+      }
+    });
+  } else {
+    console.error(
+      'Form not found. Check name="submit-to-google-sheet" in your HTML.'
+    );
+  }
+</script>
+    <!-- <script>
       const scriptURL =
         'https://script.google.com/macros/s/AKfycbw__4DZJ2MkPYwRGUpW0Zh09s1IL8vBCMiBnoZnS2WKC07YHRd5YmvR4XYMNZr5CXXCog/exec';
       const form = document.forms['submit-to-google-sheet'];
@@ -236,7 +296,10 @@
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then((response) => console.log('Success!', response))
           .catch((error) => console.error('Error!', error.message));
+          alert('Thank you for contacting me! I will get back to you soon.');
+          form.reset();
       });
-    </script>
+      
+    </script> -->
   </body>
 </html>
